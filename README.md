@@ -7,12 +7,12 @@
   使其能够输出正确的结果：
 
   ```
-  0!=1
-  1!=1
-  2!=2
-  3!=6
-  4!=24
-  5!=120
+  0! = 1
+  1! = 1
+  2! = 2
+  3! = 6
+  4! = 24
+  5! = 120
   ```
 
   - 你可以使用任意一种方法完成挑战（最好先在自己的本地电脑上测试通过）：
@@ -35,12 +35,12 @@
   but something is wrong. Please fix it to make it output correct result:
 
   ```
-  0!=1
-  1!=1
-  2!=2
-  3!=6
-  4!=24
-  5!=120
+  0! = 1
+  1! = 1
+  2! = 2
+  3! = 6
+  4! = 24
+  5! = 120
   ```
 
   - You can use either way to accomplish the challenge (you'd better test it on your local computer):
