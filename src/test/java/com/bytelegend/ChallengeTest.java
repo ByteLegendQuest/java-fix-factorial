@@ -10,8 +10,10 @@ import java.util.stream.Stream;
 public class ChallengeTest {
     @Test
     public void test() {
-        Assertions.assertEquals(Arrays.asList(1, 1, 2, 6, 24, 120, 720),
-            Stream.of(0, 1, 2, 3, 4, 5, 6).map(Challenge::factorial).collect(Collectors.toList())
-        );
+        Assertions.assertEquals(
+                Arrays.asList(1, 1, 2, 6, 24, 120, 720),
+                Stream.of(0, 1, 2, 3, 4, 5, 6)
+                        .map(Challenge::factorial)
+                        .collect(Collectors.toList()));
     }
 }
