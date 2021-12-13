@@ -7,12 +7,12 @@ The intention of `factorial` method in [src/main/java/com/bytelegend/Challenge.j
 but something is wrong. Please fix it to make it output correct result:
 
 ```
-0!=1
-1!=1
-2!=2
-3!=6
-4!=24
-5!=120
+0! = 1
+1! = 1
+2! = 2
+3! = 6
+4! = 24
+5! = 120
 ```
 
 - You can use either way to accomplish the challenge (you'd better test it on your local computer):
@@ -20,7 +20,6 @@ but something is wrong. Please fix it to make it output correct result:
   - Create a GitHub Pull Request.
 - The bot will check your PR and tell you if you accomplish the challenge.
 - Go back to [ByteLegend](https://bytelegend.com) and continue your hero journey.
-
 
 **Note: we only allow you to modify the following files.
 Any changes to files other than the following files will be rejected:**
@@ -36,12 +35,12 @@ Any changes to files other than the following files will be rejected:**
 使其能够输出正确的结果：
 
 ```
-0!=1
-1!=1
-2!=2
-3!=6
-4!=24
-5!=120
+0! = 1
+1! = 1
+2! = 2
+3! = 6
+4! = 24
+5! = 120
 ```
 
 - 你可以使用任意一种方法完成挑战（最好先在自己的本地电脑上测试通过）：
@@ -49,7 +48,6 @@ Any changes to files other than the following files will be rejected:**
   - 创建一个GitHub Pull Request。
 - 机器人将会检查你的回答，告诉你是否通过了挑战。
 - 回到[字节传说](https://bytelegend.com)，然后继续你的英雄旅程。
-
 
 **注意：我们只允许您修改以下文件，任何对其他文件的修改都会被拒绝：**
 
