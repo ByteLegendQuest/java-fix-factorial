@@ -21,7 +21,6 @@ but something is wrong. Please fix it to make it output correct result:
 - The bot will check your PR and tell you if you accomplish the challenge.
 - Go back to [ByteLegend](https://bytelegend.com) and continue your hero journey.
 
-
 **Note: we only allow you to modify the following files.
 Any changes to files other than the following files will be rejected:**
 
@@ -49,7 +48,6 @@ Any changes to files other than the following files will be rejected:**
   - 创建一个GitHub Pull Request。
 - 机器人将会检查你的回答，告诉你是否通过了挑战。
 - 回到[字节传说](https://bytelegend.com)，然后继续你的英雄旅程。
-
 
 **注意：我们只允许您修改以下文件，任何对其他文件的修改都会被拒绝：**
 
