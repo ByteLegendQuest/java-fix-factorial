@@ -1,6 +1,6 @@
 package com.bytelegend;
 
-public static class Challenge {
+public class Challenge {
 
     public static void main(String[] args) {
         System.out.println("0 != " + factorial(0));
