@@ -1,17 +1,23 @@
 package com.bytelegend;
 
 public class Challenge {
-
     public static void main(String[] args) {
-        System.out.println("0 != " + factorial(0));
-        System.out.println("1 != " + factorial(1));
-        System.out.println("2 != " + factorial(2));
-        System.out.println("3 != " + factorial(3));
-        System.out.println("4 != " + factorial(4));
-        System.out.println("5 != " + factorial(5));
+        System.out.println(fibonacci(1));
+        System.out.println(fibonacci(1));
     }
 
-    public static int factorial(int number) {
-        return factorial(number - 1) * number;
+    // fibonacci(0) = 0
+    // fibonacci(1) = 1
+    // fibonacci(2) = 1
+    // fibonacci(3) = 2
+    // ...
+    // fibonacci(n) = fibonacci(n - 1) + fibonacci(n - 2)
+    public static int fibonacci(int n) {
+        if (n == 0) {
+            return 0;
+        } else if (n == 1) {
+            return 1;
+        } else
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 }
