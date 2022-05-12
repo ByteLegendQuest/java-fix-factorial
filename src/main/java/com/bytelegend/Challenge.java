@@ -12,6 +12,10 @@ public class Challenge {
     }
 
     public static int factorial(int number) {
-        return factorial(number - 1) * number;
+        int cout = number;
+        for (int i = number; i > 1; i--) {
+            cout = cout * (i - 1);
+        }
+        return cout == 0 ? 1 : cout;
     }
 }
