@@ -13,6 +13,7 @@ public class Challenge {
 
     public static int factorial(int number) {
         if(number <= 2){
+            if(number == 0) return 0;
             return number;
         }
         return factorial(number - 1) * number;
