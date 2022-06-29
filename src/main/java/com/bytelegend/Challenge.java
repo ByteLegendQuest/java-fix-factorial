@@ -1,6 +1,7 @@
 package com.bytelegend;
 
 public class Challenge {
+    public static int num;
 
     public static void main(String[] args) {
         System.out.println("0 != " + factorial(0));
@@ -12,6 +13,12 @@ public class Challenge {
     }
 
     public static int factorial(int number) {
-        return factorial(number - 1) * number;
+        int i= 1;
+        int jieguo = 1;
+        while (i<=number){
+            jieguo *=i;
+            i++;
+        }
+        return jieguo;
     }
 }
