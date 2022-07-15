@@ -9,9 +9,12 @@ public class Challenge {
         System.out.println("3 != " + factorial(3));
         System.out.println("4 != " + factorial(4));
         System.out.println("5 != " + factorial(5));
-    }
+    
 
     public static int factorial(int number) {
+         { if {number == 0}
+        return 1; }
+
         return factorial(number - 1) * number;
     }
 }
