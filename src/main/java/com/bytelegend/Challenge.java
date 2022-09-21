@@ -12,17 +12,6 @@ public class Challenge {
     }
 
     public static int factorial(int number) {
-
-        if (number == 0){
-            return 1;
-        }
-        if(number > 1) {
-            return factorial(number - 1) * number;
-        }else if(number == 1){
-            return 1;
-        }
-        else{
-            return 0;
-        }
+        return factorial(number - 1) * number;
     }
 }
