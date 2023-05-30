@@ -15,7 +15,7 @@ public class Challenge {
         if (number > 1) {
             return factorial(number - 1) * number;
         } else {
-            return number;
+            return 1;
         }
     }
 }
