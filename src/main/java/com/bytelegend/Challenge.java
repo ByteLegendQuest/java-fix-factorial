@@ -1,6 +1,7 @@
 package com.bytelegend;
 
 public class Challenge {
+
     public static void main(String[] args) {
         System.out.println("0 != " + factorial(0));
         System.out.println("1 != " + factorial(1));
@@ -11,9 +12,6 @@ public class Challenge {
     }
 
     public static int factorial(int number) {
-        if (number == 0 ) {
-          return 1;
-        }
         return factorial(number - 1) * number;
     }
 }
