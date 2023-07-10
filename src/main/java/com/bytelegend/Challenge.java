@@ -15,3 +15,4 @@ public class Challenge {
         return factorial(number - 1) * number;
     }
 }
+
